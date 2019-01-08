@@ -12,6 +12,7 @@ public:
 	void set_mCnp(std::string);
 	void set_mEmail(std::string);
 	void set_mLastName(std::string);
+	void newRole(Role*);
 	std::string get_mName();
 	std::string get_mCnp();
 	std::string get_mEmail();

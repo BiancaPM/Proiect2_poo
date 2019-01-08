@@ -30,6 +30,11 @@ void Person::set_mLastName(std::string _mLastName)
 	mLastName = _mLastName;
 }
 
+void Person::newRole(Role * r)
+{
+	mRole.push_back(r);
+}
+
 std::string Person::get_mName()
 {
 	return mName;

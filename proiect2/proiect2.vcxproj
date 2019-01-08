@@ -152,12 +152,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Activity.hpp" />
+    <ClInclude Include="ActivityRepository.hpp" />
     <ClInclude Include="AdministrationRole.hpp" />
     <ClInclude Include="GuestRole.hpp" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Person.hpp" />
+    <ClInclude Include="PersonAddRole.hpp" />
+    <ClInclude Include="PersonRepository.hpp" />
+    <ClInclude Include="Repository.hpp" />
     <ClInclude Include="Role.hpp" />
     <ClInclude Include="Room.hpp" />
+    <ClInclude Include="RoomRepository.hpp" />
     <ClInclude Include="StudentRole.hpp" />
     <ClInclude Include="TeachActivity.hpp" />
     <ClInclude Include="TeacherRole.hpp" />
@@ -171,6 +176,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="PersonAddRole.cpp" />
+    <ClCompile Include="PersonRepository.cpp" />
     <ClCompile Include="proiect2.cpp" />
     <ClCompile Include="Role.cpp" />
     <ClCompile Include="Room.cpp" />
