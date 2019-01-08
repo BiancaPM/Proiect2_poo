@@ -4,7 +4,7 @@
 #include "Room.hpp"
 #include "Person.hpp"
 class Activity {
-private:
+protected:
 	Room* mLocation;
 	Person* mOwner;
 	std::string mDescription;

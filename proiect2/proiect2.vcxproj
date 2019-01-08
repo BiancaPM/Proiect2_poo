@@ -159,6 +159,7 @@
     <ClInclude Include="Role.hpp" />
     <ClInclude Include="Room.hpp" />
     <ClInclude Include="StudentRole.hpp" />
+    <ClInclude Include="TeachActivity.hpp" />
     <ClInclude Include="TeacherRole.hpp" />
   </ItemGroup>
   <ItemGroup>
@@ -171,7 +172,11 @@
     </ClCompile>
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="proiect2.cpp" />
+    <ClCompile Include="Role.cpp" />
     <ClCompile Include="Room.cpp" />
+    <ClCompile Include="StudentRole.cpp" />
+    <ClCompile Include="TeachActivity.cpp" />
+    <ClCompile Include="TeacherRole.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
