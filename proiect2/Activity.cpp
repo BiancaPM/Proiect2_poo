@@ -1,5 +1,7 @@
 #include "pch.h"
 #include "Activity.hpp"
+#include <iostream>
+#include <cstdio>
 
 void Activity::set_Location(Room * X)
 {

@@ -26,3 +26,10 @@ int Room::get_Floor()
 {
 	return mFloor;
 }
+
+std::ostream & operator<<(std::ostream & out, Room & room)
+{
+	out << room.mRoomNr << room.mFloor;
+	return out;
+	// TODO: insert return statement here
+}

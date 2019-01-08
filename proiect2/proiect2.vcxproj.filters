@@ -95,5 +95,11 @@
     <ClCompile Include="PersonAddRole.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GuestRole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdministrationRole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

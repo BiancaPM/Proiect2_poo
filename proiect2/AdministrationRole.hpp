@@ -1,4 +1,9 @@
 #pragma once
 #include<stdio.h>
 #include<string>
-class AdministrationRole: public Role{ };
+#include "Role.hpp"
+class AdministrationRole: public Role{
+public:
+	AdministrationRole();
+
+};

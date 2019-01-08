@@ -4,6 +4,7 @@
 #include "Room.hpp"
 #include "Person.hpp"
 class Activity {
+
 protected:
 	Room* mLocation;
 	Person* mOwner;

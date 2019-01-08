@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "Person.hpp"
 
 Person::Person(std::string _mEmail, std::string _mName, std::string _mLastName, std::string _mCnp)
